@@ -1,5 +1,59 @@
 .App {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-fancy {
+  -webkit-background-clip: text;
+  background-clip: text !important;
+  background-image: url("./images/gradient.svg");
+  background-size: cover;
+  color: transparent !important;
+  background-position: center center;
+}
+
+.motto h1, .fancy-title {
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.motto p {
+  color: rgb(17, 17, 17);
+  font-size: 1.4rem;
+}
+
+.App .card-title {
+  font-weight: 700;
+  font-size: 1.4rem;
+  opacity: 0.75;
+}
+
+.App .card {
+  max-width: 500px;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.App .card-body {
+  padding: 35px;
+}
+
+.App .card-body > * {
+  margin-bottom: 15px;
+}
+
+.App .card a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.App .card a img {
+  margin-top: -0.1rem;
+  width: 1.5rem;
+  transform: rotate(-90deg);
+  fill: blue;
 }
 
 .App-logo {
