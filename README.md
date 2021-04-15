@@ -58,7 +58,7 @@ $ cd ./enka360    # bu repository'nin bulunduğu klasöre girin
 
 $ npm install     # gerekli dependency'leri indirir
 
-$ npm build       # projeyi derler ve ./build klasörü elde edilir
+$ npm run build       # projeyi derler ve ./build klasörü elde edilir
 ```
 
 Bu aşamadan sonra `build` klasörü herhangi bir web sunucusu tarafından hostlanabilir ve tarayıcı üzerinden görüntülenebilir.
