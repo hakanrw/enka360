@@ -32,6 +32,8 @@ Bu websitesi [create-react-app](https://github.com/facebook/create-react-app#rea
 ## Geliştirme
 Sıfırdan başlayıp geliştirme yapmak istiyorsanız aşağıdaki adımları takip edebilirsiniz.
 
+Bu işlemleri gerçekleştirmek için [Node.JS](https://nodejs.org/en/) ve [Git](https://git-scm.com/) indirmeniz gerekir.
+
 ```bash
 $ git clone https://github.com/hcandar/enka360.git    # bu repository'i bilgisayarınıza kopyalar
 
@@ -47,7 +49,7 @@ $ npm start       # kodunuz derlenir, local olarak hostlanır ve bir tarayıcıs
 NOT: Bu aşamalar `build` dosyası oluşturmaz. Eğer `build` dosyası oluşturup siteyi herhangi bir web sunucusu üzerinde hostlamak istiyorsanız sonraki aşamayı takip edin.
 
 ## Derleme aşaması
-Sitemiz react.js, jsx gibi teknolojiler kullandığından bu tür dosyalar direkt olarak tarayıcı üzerinde görüntülenemez. Bu yüzden kaynak kodunu tarayıcılar tarafından görüntelenebilecek bir hale çevirmek için create-react-app kullanılır.
+Sitemiz react.js, jsx gibi teknolojiler kullandığından bu tür dosyalar direkt olarak tarayıcı üzerinde görüntülenemez. Bu yüzden kaynak kodunu tarayıcılar tarafından görüntelenebilecek bir hale çevirmek için aşağıdaki adımlar uygulanır.
 
 Derleme işlemini gerçekleştirmek için [Node.JS](https://nodejs.org/en/) indirmeniz gerekir. 
 
