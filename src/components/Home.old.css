@@ -1,0 +1,55 @@
+.greeting-card {
+  position: relative;
+  height: 60vh;
+  background: url("../images/chicago-690364_1920.jpg") no-repeat bottom;
+  background-size: cover;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.greeting-card > .row {
+  background-color: rgba(0, 0, 0, 40%);
+}
+
+.greeting-text {
+  font-size: 150px;
+  width: 100%;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media(max-width: 990px) {
+  .greeting-text {
+    font-size: 100px;
+  }
+}
+
+
+@media(max-width: 600px) {
+  .greeting-text {
+    font-size: 20vw;
+  }
+  .greeting-text span {
+    display: block;
+  }
+}
+
+.motto {
+  font-size: 1.4rem;
+}
+
+.Home .card {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.Home .card-title {
+  font-size: 1.4rem;
+}
+
+.Home .card-body > * {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,17 @@
+.Stream .row .col-sm-6 {
+  max-width: 462px;
+}
+
+.Stream > .FancyCard {
+  height: 280px;
+}
+
+@media(max-width: 576px) {
+  .Stream .row .col-sm-6 {
+    max-width: none;
+  }
+
+  .Stream > .FancyCard {
+    height: 50vh;
+  }
+}

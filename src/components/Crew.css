@@ -1,0 +1,22 @@
+.Crew .crew-title {
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.Crew .crew-title span {
+  padding: 10px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  opacity: 0.6;
+}
+
+.Crew .card {
+  max-width: 300px;
+}
+
+.Crew .card img {
+  width: 50%;
+  opacity: 0.7;
+}

@@ -1,0 +1,40 @@
+.reset-ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-upper {
+  text-align: left;
+  background-color: #04080f;
+  min-height: 40vh;
+}
+
+.footer-upper p {
+  color: rgb(247, 247, 255);
+}
+
+.footer-upper h3, .footer-upper h4{
+  font-weight: 700;
+}
+
+.footer-upper a, .footer-upper p {
+  color: rgb(129, 133, 139);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.footer-lower {
+  height: 60px;
+  text-align: left;
+  padding: 20px;
+  background-color: #141619;
+}
+
+.footer-lower span {
+  color: #81858b;
+}
+
+.Footer div {
+  color: white;
+}

@@ -1,0 +1,58 @@
+.greeting-card {
+  border-radius: 12px;
+  position: relative;
+  height: 60vh;
+  max-height: 500px;
+  background: url("../images/gradient.svg") no-repeat bottom;
+  background-size: cover;
+}
+
+.greeting-text {
+  font-size: 150px;
+  width: 100%;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media(max-width: 990px) {
+  .greeting-text {
+    font-size: 100px;
+  }
+}
+
+
+@media(max-width: 600px) {
+  .greeting-text {
+    font-size: 20vw;
+  }
+  .greeting-text span {
+    display: block;
+  }
+}
+
+.motto {
+  width: 75%;
+}
+
+@media(max-width: 600px) {
+  .motto {
+    width: 100%;
+  }
+
+  .motto p {
+    font-size: 1.3rem;
+  }
+}
+
+
+@media(max-width: 450px) {
+  .col-lg-4 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .greeting-text {
+    font-weight: 600;
+  }
+}

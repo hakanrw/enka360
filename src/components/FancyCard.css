@@ -1,0 +1,16 @@
+.FancyCard {
+  max-width: 900px;
+  border-radius: 12px;
+  background: url("../images/gradient.svg") no-repeat bottom;
+  background-size: cover;
+  text-align: left;
+}
+
+.FancyCard h1, .FancyCard p {
+  color: white;
+  max-width: 600px;
+} 
+
+.FancyCard p {
+  font-size: 1.3rem;
+}
