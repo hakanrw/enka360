@@ -27,7 +27,7 @@ Bu websitesi [create-react-app](https://github.com/facebook/create-react-app#rea
 
 `./public` üzerinde herhangi bir değişiklik yapılmadan `build` klasörüne iletilen dosyalar burada bulunur.
 
-`./build` react-scripts tarafından derlenilen kaynak kodu ile beraber `public` klasöründen kopyalanan dosyalar bulunur. bu dosyalar bütünü direk tarayıcı üzerinden görüntülenebilen websitesini oluşturur. bu klasör github üzerinde bulundurulmaz ve yerel olarak `npm build` komudu çalıştırılarak elde edilir.
+`./build` react-scripts tarafından derlenilen kaynak kodu ile beraber `public` klasöründen kopyalanan dosyalar bulunur. bu dosyalar bütünü direk tarayıcı üzerinden görüntülenebilen websitesini oluşturur. bu klasör github üzerinde bulundurulmaz ve yerel olarak `npm run build` komudu çalıştırılarak elde edilir.
 
 ## Geliştirme
 Sıfırdan başlayıp geliştirme yapmak istiyorsanız aşağıdaki adımları takip edebilirsiniz.
