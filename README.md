@@ -1,7 +1,7 @@
 # Enka360 resmi web sitesi
 Enka360 organizasyonunun resmi web sitesinin kaynak kodudur.
 
-[Site adresi](https://enka360.netlify.app)
+[Site adresi](https://enka-360.netlify.app)
 
 Geliştirme yapmak veya incelemek istiyorsanız lütfen bu dökümanı okuyunuz. 
 
