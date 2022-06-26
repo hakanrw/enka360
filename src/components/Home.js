@@ -34,8 +34,8 @@ class Home extends React.Component {
         </div>
         
         <div className="motto my-5 mx-auto">
-          <h1 className="text-fancy">Lorem Ipsum</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo diam in risus dictum iaculis. Duis at tincidunt sapien, a pulvinar turpis. Aliquam molestie leo in lectus semper, quis pharetra enim volutpat. Nam ut eleifend ligula. Sed iaculis quis tellus non condimentum. Sed risus ipsum, mattis vitae est nec, sagittis mattis lacus. Etiam sit amet accumsan est. Nulla pellentesque ullamcorper ultricies. Etiam metus sem, scelerisque at malesuada ac, interdum id urna.</p>
+          <h1 className="text-fancy">Enkanın Sesi</h1>
+          <p>"Tek sınırımız, bizim kendimizi geliştirmek konusundaki isteğimizdir." sözünün doğruluğuna inanarak çıkılan bu yolda; toplumda kendini geliştirmeye meraklı, uzman konuklarımızdan alacağı bilgilere açık, internet erişimi olan herkese hitap ediyoruz. Yayınlarımızı bu siteden takip edebilirsiniz.</p>
         </div>
 
         <div className="container-fluid pt-5">
